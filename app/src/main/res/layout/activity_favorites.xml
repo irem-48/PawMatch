@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favoritesMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF7F0">
+
+    <TextView
+        android:id="@+id/txtFavoritesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Favorite Pets ❤️"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#6D4C41"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/listFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nearby Shelters"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#6D4C41"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnManisaShelter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manisa Shelter" />
+
+        <Button
+            android:id="@+id/btnIzmirShelter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İzmir Shelter" />
+
+        <Button
+            android:id="@+id/btnMuglaShelter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muğla Shelter" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

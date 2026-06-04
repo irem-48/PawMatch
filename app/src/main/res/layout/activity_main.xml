@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="24dp"
+android:background="#FFF7F0">
+
+<TextView
+    android:id="@+id/txtAppName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PawMatch"
+    android:textSize="36sp"
+    android:textStyle="bold"
+    android:textColor="#6D4C41" />
+
+<TextView
+    android:id="@+id/txtSlogan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Find your new best friend 🐾"
+    android:textSize="16sp"
+    android:textColor="#8D6E63"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="32dp" />
+
+<EditText
+    android:id="@+id/edtUserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name"
+    android:padding="14dp"
+    android:backgroundTint="#A1887F"
+    android:inputType="textPersonName" />
+
+<Button
+    android:id="@+id/btnStart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Matching"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="#FF8A65"
+    android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adoptionScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtFormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adoption Form"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#6D4C41" />
+
+        <TextView
+            android:id="@+id/txtSelectedPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Pet"
+            android:textSize="18sp"
+            android:textColor="#8D6E63"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full name"
+            android:inputType="textPersonName"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerHomeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have taken care of a pet before"
+            android:textColor="#6D4C41"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSubmitApplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Application"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF8A65"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
